@@ -7,31 +7,12 @@ body {
   height: 100vh;
   margin: 0;
   background-image: url(../images/bg.jpg);
+  background-size: 100%;
  display: flex;
 flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-image: url(../images/bg.jpg);
-}
-
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-image: url(../images/bg.jpg);
 }
 
 .container {
