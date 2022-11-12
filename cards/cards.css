@@ -71,9 +71,10 @@ body::after
 {
     padding: 20px;
     text-align: center;
-    transform: translateY(100px);
+
     opacity: 0;
     transition: 0.5s;
+    transform: translateY(0px);
 }
 .container .card:hover .content
 {
